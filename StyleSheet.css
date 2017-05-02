@@ -1,0 +1,707 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#dartMaster {
+    box-shadow: 10px 10px 5px grey;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: black;
+    width: 830px;
+    height: 760px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -380px 0 0 -415px;
+}
+/*ContainerTop*/
+#containerTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 810px;
+    height: 40px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.topText {
+    display: inline-block;
+    width: 270px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+#home {
+    height: 25px;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+    margin-left: 105px;
+}
+
+#away {
+    height: 25px;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+    margin-left: 105px;
+}
+
+#goodDarts {
+    height: 25px;
+    color: black;
+    font-size: 24pt;
+    text-align: center;
+    margin-left: 55px;
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+}
+
+#containerTop2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 810px;
+    height: 20px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.topText2 {
+    display: inline-block;
+    width: 270px;
+    height: 20px;
+}
+
+#home2 {
+    height: 20px;
+    color: white;
+    font-size: 8pt;
+    text-align: center;
+    margin-left: 115px;
+}
+
+#away2 {
+    height: 20px;
+    color: white;
+    font-size: 8pt;
+    text-align: center;
+    margin-left: 115px;
+}
+
+
+/*Container*/
+#container {
+    width: 810px;
+    height: 61px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.tier1 {
+    display: inline-block;
+    width: 270px;
+    height: 61px;
+}
+
+#t1a {
+    height: 61px;
+    width: 270px;
+}
+
+#t1b {
+    height: 61px;
+    width: 270px;
+}
+
+#t1c {
+    height: 61px;
+    width: 270px;
+}
+
+#sbl {
+    height: 50px;
+    width: 100px;
+    margin-left: 82px;
+    background-color: #DC143C;
+    border: 3px solid white;
+    font-family: DS-DIGII;
+    color: #F08080;
+    text-align: center;
+    font-size: 37pt;
+}
+
+#resetWrap {
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border: 3px solid white;
+    margin-left: 114.5px;
+    margin-top: 21px;
+}
+
+#reset {
+    height: 31px;
+    width: 31px;
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#sbr {
+    height: 50px;
+    width: 100px;
+    margin-left: 82px;
+    background-color: #DC143C;
+    border: 3px solid white;
+    font-family: DS-DIGII;
+    color: #F08080;
+    text-align: center;
+    font-size: 37pt;
+}
+
+
+/*Container 2*/
+#container2 {
+    width: 810px;
+    height: 61px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.tier2 {
+    display: inline-block;
+    width: 270px;
+    height: 61px;
+}
+
+#t2a {
+    height: 61px;
+    width: 270px;
+}
+
+#t2b {
+    height: 61px;
+    width: 270px;
+}
+
+#t2c {
+    height: 61px;
+    width: 270px;
+}
+
+#sbl2 {
+    height: 50px;
+    width: 100px;
+    margin-left: 82px;
+    margin-top: 5px;
+    background-color: #DC143C;
+    border: 3px solid white;
+    font-family: DS-DIGII;
+    color: #F08080;
+    text-align: center;
+    font-size: 37pt;
+}
+
+#sbr2 {
+    height: 50px;
+    width: 100px;
+    margin-left: 82px;
+    margin-top: 5px;
+    background-color: #DC143C;
+    border: 3px solid white;
+    font-family: DS-DIGII;
+    color: #F08080;
+    text-align: center;
+    font-size: 37pt;
+}
+
+
+#resetText {
+    height: 15px;
+    width: 76px;
+    margin-left: 98px;
+    color: white;
+    font-size: 10pt;
+    text-align: center;
+}
+
+#total {
+    height: 35px;
+    width: 70px;
+    background-color: black;
+    border: 3px solid white;
+    font-family: DS-DIGII;
+    color: #F08080;
+    text-align: center;
+    font-size: 25pt;
+    margin-left: 97px;
+    margin-top: 3px;
+}
+
+/*Container 3*/
+#container3 {
+    width: 810px;
+    height: 216px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: black;
+}
+
+/*Score Button RED*/
+#enterLeft {
+    height: 206px;
+    width: 270px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#enterRedWrap {
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border: 3px solid white;
+    margin-left: 136px;
+    margin-top: 110px;
+}
+
+#enterRed {
+    height: 38px;
+    width: 38px;
+    background-color: red;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+/*Score Button BLUE*/
+#enterRight {
+    height: 206px;
+    width: 270px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#enterBlueWrap {
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border: 3px solid white;
+    margin-left: 90px;
+    margin-top: 110px;
+}
+
+#enterBlue {
+    height: 38px;
+    width: 38px;
+    background-color: blue;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+/*Calculator New*/
+#calcWrap {
+    display: inline-block;
+    width: 270px;
+    height: 206px;
+    margin-top: 10px;
+}
+
+#calculator {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    background-color: black;
+    border: 3px white solid;
+    border-radius: 15px;
+    margin-left: 57px;
+}
+
+#numbers {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.labelL {
+    display: inline-block;
+    width: 25px;
+    height: 12px;
+    margin-right: 20px;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 11pt;
+    color: lightgray;
+    border-radius: 1px;
+}
+
+.labelM {
+    display: inline-block;
+    width: 25px;
+    height: 12px;
+    text-align: center;
+    font-size: 11pt;
+    color: lightgray;
+    border-radius: 1px;
+}
+
+.labelR {
+    display: inline-block;
+    width: 25px;
+    height: 12px;
+    margin-right: 2px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 11pt;
+    color: lightgray;
+    border-radius: 1px;
+}
+
+.enterL {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 8pt;
+    border-radius: 1px;
+    background-color: lightgrey;
+    color: lightgrey;
+}
+
+#clearR {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 8pt;
+    border-radius: 1px;
+    background-color: red;
+    color: red;
+}
+
+.enterM {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 8pt;
+    border-radius: 1px;
+    background-color: lightgrey;
+    color: lightgrey;
+}
+
+.enterR {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 8pt;
+    border-radius: 1px;
+    background-color: lightgrey;
+    color: lightgrey;
+}
+
+#clearB {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 8pt;
+    border-radius: 1px;
+    background-color: Blue;
+    color: Blue;
+}
+/*Container Cricket*/
+#containerCricket {
+    height: 20px;
+    width: 810px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+    #containerCricket a {
+        text-align: center;
+        color: white;
+        font-size: 16pt;
+    }
+/*Container 4*/
+#container4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: black;
+    width: 810px;
+    height: 275px;
+    margin-left: 10px;
+}
+
+#scoreboxLeft {
+    display: inline-block;
+    height: 275px;
+    margin: auto;
+    width: 235px;
+}
+
+#scoreboxLeftMid {
+    display: inline-block;
+    height: 275px;
+    margin: auto;
+    width: 120px;
+}
+
+#scoreboxRightMid {
+    display: inline-block;
+    height: 275px;
+    margin: auto;
+    width: 120px;
+}
+
+.midWrapL {
+    display: inline-block;
+    height: 275px;
+    width: 120px;
+    text-align: center;
+}
+
+.midWrapR {
+    display: inline-block;
+    height: 275px;
+    width: 120px;
+    text-align: center;
+}
+
+.tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 120px;
+    height: 22px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#trlTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 120px;
+    height: 22px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#trrTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 120px;
+    height: 22px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tr a {
+    display: inline-block;
+    text-align: center;
+    font-size: 14pt;
+    width: 120px;
+    height: 19px;
+    color: lightgrey;
+    margin-top: 3px;
+}
+
+#topR {
+    margin-top: 5px;
+}
+
+#bottomR {
+    margin-bottom: 5px;
+}
+
+#topL {
+    margin-top: 5px;
+}
+
+#bottomL {
+    margin-bottom: 5px;
+}
+
+#scoreboxMiddle {
+    display: inline-block;
+    text-align: center;
+    height: 275px;
+    width: 100px;
+}
+
+#scoreButtons {
+    display: inline-block;
+    width: 100px;
+    height: 275px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 98px;
+    height: 22px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 1px;
+}
+
+.button {
+    width: 22px;
+    height: 22px;
+    background-color: yellow;
+    color: yellow;
+    font-size: 10pt;
+    border-radius: 100%;
+}
+
+.hide {
+    background-color: black;
+    width: 2px;
+    height: 2px;
+    font-size: 8pt;
+    color: black;
+}
+
+/*.button:active {
+    background-color: #3e8e41;
+    color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+}*/
+
+#scoreboxRight {
+    display: inline-block;
+    height: 275px;
+    margin: auto;
+    width: 235px;
+}
+
+#numbersLeft {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 275px;
+    margin-left: 105px;
+}
+
+#numbersRight {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 275px;
+    margin-left: 30px;
+}
+
+.nl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100px;
+    height: 15px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+#nlTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100px;
+    height: 15px;
+    text-align: center;
+    margin-top: 18.5px;
+}
+
+.nl a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    color: lightgrey;
+    text-align: center;
+    font-size: 8pt;
+    border-radius: 100%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+
+.nr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100px;
+    height: 15px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+#nrTop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100px;
+    height: 15px;
+    text-align: center;
+    margin-top: 18.5px;
+}
+
+.nr a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    color: lightgrey;
+    text-align: center;
+    font-size: 8pt;
+    border-radius: 100%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
