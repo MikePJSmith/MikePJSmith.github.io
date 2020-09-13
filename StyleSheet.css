@@ -1,37 +1,89 @@
 ﻿body {
-    margin: 0;
-    padding: 0;
-}
-
-#dartMaster {
-    box-shadow: 10px 10px 5px grey;
-    border: 1px solid;
-    border-radius: 10px;
-    background-color: black;
-    width: 830px;
-    height: 760px;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -380px 0 0 -415px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
-/*ContainerTop*/
-#containerTop {
+.containdarts {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: slategrey;
+    text-align: center;
+}
+.containtop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    background-color: slategrey;
+    text-align: center;
+}
+.containscores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: slategrey;
+    text-align: center;
+}
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: slategrey;
+    text-align: center;
+}
+.containcalc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: slategrey;
+    text-align: center;
+}
+.containcricket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    background-color: slategrey;
+    text-align: center;
+}
+.containbut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: slategrey;
+    text-align: center;
+}
+#dartMaster {
+    display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
-    width: 810px;
-    height: 40px;
-    background-color: black;
-    margin-left: 10px;
+    width: 100%;
+    height: 100%;
 }
 
+
 .topText {
-    display: inline-block;
-    width: 270px;
-    height: 25px;
-    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 #home {
@@ -39,7 +91,6 @@
     color: white;
     font-size: 18pt;
     text-align: center;
-    margin-left: 105px;
 }
 
 #away {
@@ -47,7 +98,6 @@
     color: white;
     font-size: 18pt;
     text-align: center;
-    margin-left: 105px;
 }
 
 #goodDarts {
@@ -55,99 +105,106 @@
     color: black;
     font-size: 24pt;
     text-align: center;
-    margin-left: 55px;
     text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
 }
 
-#containerTop2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 810px;
-    height: 20px;
-    background-color: black;
-    margin-left: 10px;
-}
+
 
 .topText2 {
     display: inline-block;
-    width: 270px;
-    height: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #home2 {
-    height: 20px;
+    width: 100%;
+    height: 100%;
     color: white;
     font-size: 8pt;
     text-align: center;
-    margin-left: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #away2 {
-    height: 20px;
+    width: 100%;
+    height: 100%;
     color: white;
     font-size: 8pt;
     text-align: center;
-    margin-left: 115px;
-}
-
-
-/*Container*/
-#container {
-    width: 810px;
-    height: 61px;
-    margin-left: 10px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: black;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
 
 .tier1 {
-    display: inline-block;
-    width: 270px;
-    height: 61px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #t1a {
-    height: 61px;
-    width: 270px;
+    height: 100%;
+    width: 100%;
 }
 
 #t1b {
-    height: 61px;
-    width: 270px;
+    height: 100%;
+    width: 100%;
 }
 
 #t1c {
-    height: 61px;
-    width: 270px;
+    height: 100%;
+    width: 100%;
 }
 
 #sbl {
-    height: 50px;
-    width: 100px;
-    margin-left: 82px;
+    height: 90%;
+    width: 30%;
     background-color: #DC143C;
     border: 3px solid white;
     font-family: DS-DIGII;
     color: #F08080;
     text-align: center;
     font-size: 37pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:15%;
 }
 
 #resetWrap {
     text-align: center;
-    height: 35px;
-    width: 35px;
+    height: 34px;
+    width: 34px;
     background-color: black;
     border: 3px solid white;
-    margin-left: 114.5px;
-    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.reset {
+    height: 31px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.reset a {
+color:white;
+}
 #reset {
     height: 31px;
     width: 31px;
@@ -157,194 +214,177 @@
     margin-left: 2px;
     margin-right: 2px;
 }
-
 #sbr {
-    height: 50px;
-    width: 100px;
-    margin-left: 82px;
+    height: 90%;
+    width: 30%;
     background-color: #DC143C;
     border: 3px solid white;
     font-family: DS-DIGII;
     color: #F08080;
     text-align: center;
     font-size: 37pt;
-}
-
-
-/*Container 2*/
-#container2 {
-    width: 810px;
-    height: 61px;
-    margin-left: 10px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-left:15%;
 }
+
+
 
 .tier2 {
-    display: inline-block;
-    width: 270px;
-    height: 61px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #t2a {
-    height: 61px;
-    width: 270px;
+    height: 100%;
+    width: 100%;
 }
 
 #t2b {
-    height: 61px;
-    width: 270px;
+    height: 100%;
+    width: 100%;
 }
 
 #t2c {
-    height: 61px;
-    width: 270px;
+    height: 100%;
+    width: 100%;
 }
 
 #sbl2 {
-    height: 50px;
-    width: 100px;
-    margin-left: 82px;
-    margin-top: 5px;
+    height: 90%;
+    width: 30%;
     background-color: #DC143C;
     border: 3px solid white;
     font-family: DS-DIGII;
     color: #F08080;
     text-align: center;
     font-size: 37pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:15%
 }
 
 #sbr2 {
-    height: 50px;
-    width: 100px;
-    margin-left: 82px;
-    margin-top: 5px;
+    display: flex;
+    height: 90%;
+    width: 30%;
     background-color: #DC143C;
     border: 3px solid white;
     font-family: DS-DIGII;
     color: #F08080;
     text-align: center;
     font-size: 37pt;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
 }
 
 
-#resetText {
-    height: 15px;
-    width: 76px;
-    margin-left: 98px;
-    color: white;
-    font-size: 10pt;
-    text-align: center;
-}
+
 
 #total {
-    height: 35px;
-    width: 70px;
+    height: 90%;
+    width: 30%;
     background-color: black;
     border: 3px solid white;
     font-family: DS-DIGII;
+    font-size: 37pt;
     color: #F08080;
     text-align: center;
-    font-size: 25pt;
-    margin-left: 97px;
-    margin-top: 3px;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
 }
 
-/*Container 3*/
-#container3 {
-    width: 810px;
-    height: 216px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: black;
-}
 
 /*Score Button RED*/
 #enterLeft {
-    height: 206px;
-    width: 270px;
-    display: inline-block;
-    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #enterRedWrap {
+    display: flex;
     text-align: center;
-    height: 40px;
-    width: 40px;
+    height: 100%;
+    width: 100%;
     background-color: black;
-    border: 3px solid white;
-    margin-left: 136px;
-    margin-top: 110px;
+
+    justify-content: center;
+    align-items: center;
 }
 
 #enterRed {
     height: 38px;
     width: 38px;
     background-color: red;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
+    border: 3px solid white;
 }
 
 /*Score Button BLUE*/
 #enterRight {
-    height: 206px;
-    width: 270px;
+    height: 100%;
+    width: 100%;
     display: inline-block;
-    margin-top: 10px;
 }
 
 #enterBlueWrap {
+    display: flex;
     text-align: center;
-    height: 40px;
-    width: 40px;
+    height: 100%;
+    width: 100%;
     background-color: black;
-    border: 3px solid white;
-    margin-left: 90px;
-    margin-top: 110px;
+
+    justify-content: center;
+    align-items: center;
 }
 
 #enterBlue {
     height: 38px;
     width: 38px;
     background-color: blue;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
+    border: 3px solid white;
 }
 
 /*Calculator New*/
 #calcWrap {
-    display: inline-block;
-    width: 270px;
-    height: 206px;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    text-align: center;
 }
 
 #calculator {
     display: inline-block;
-    width: 150px;
-    height: 200px;
+    width: 60%;
+    height: 90%;
     background-color: black;
     border: 3px white solid;
     border-radius: 15px;
-    margin-left: 57px;
 }
-
 #numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+#numbers2 {
     display: inline-block;
     width: 150px;
     height: 200px;
     text-align: center;
-    margin-top: 5px;
 }
 
 .labelL {
@@ -443,59 +483,8 @@
     background-color: Blue;
     color: Blue;
 }
-/*Container Cricket*/
-#containerCricket {
-    height: 20px;
-    width: 810px;
-    margin-left: 10px;
-    text-align: center;
-    margin-top: 30px;
-}
 
-    #containerCricket a {
-        text-align: center;
-        color: white;
-        font-size: 16pt;
-    }
-/*Container 4*/
-#container4 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: black;
-    width: 810px;
-    height: 275px;
-    margin-left: 10px;
-}
 
-#scoreboxLeft {
-    display: inline-block;
-    height: 275px;
-    margin: auto;
-    width: 235px;
-}
-
-#scoreboxLeftMid {
-    display: inline-block;
-    height: 275px;
-    margin: auto;
-    width: 120px;
-}
-
-#scoreboxRightMid {
-    display: inline-block;
-    height: 275px;
-    margin: auto;
-    width: 120px;
-}
-
-.midWrapL {
-    display: inline-block;
-    height: 275px;
-    width: 120px;
-    text-align: center;
-}
 
 .midWrapR {
     display: inline-block;
@@ -504,88 +493,19 @@
     text-align: center;
 }
 
-.tr {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 120px;
-    height: 22px;
-    text-align: center;
-    margin-top: 15px;
-}
 
-#trlTop {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 120px;
-    height: 22px;
-    text-align: center;
-    margin-top: 15px;
-}
 
-#trrTop {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 120px;
-    height: 22px;
-    text-align: center;
-    margin-top: 15px;
-}
 
-.tr a {
-    display: inline-block;
-    text-align: center;
-    font-size: 14pt;
-    width: 120px;
-    height: 19px;
-    color: lightgrey;
-    margin-top: 3px;
-}
 
-#topR {
-    margin-top: 5px;
-}
 
-#bottomR {
-    margin-bottom: 5px;
-}
-
-#topL {
-    margin-top: 5px;
-}
-
-#bottomL {
-    margin-bottom: 5px;
-}
-
-#scoreboxMiddle {
-    display: inline-block;
-    text-align: center;
-    height: 275px;
-    width: 100px;
-}
-
-#scoreButtons {
-    display: inline-block;
-    width: 100px;
-    height: 275px;
-}
 
 .btns {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 98px;
-    height: 22px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    margin-top: 15px;
-    margin-left: 1px;
 }
 
 .button {
@@ -598,19 +518,10 @@
 }
 
 .hide {
-    background-color: black;
-    width: 2px;
-    height: 2px;
-    font-size: 8pt;
+
     color: black;
 }
 
-/*.button:active {
-    background-color: #3e8e41;
-    color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(1px);
-}*/
 
 #scoreboxRight {
     display: inline-block;
@@ -635,16 +546,6 @@
     margin-left: 30px;
 }
 
-.nl {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 100px;
-    height: 15px;
-    text-align: center;
-    margin-top: 22px;
-}
 
 #nlTop {
     display: flex;
@@ -657,17 +558,17 @@
     margin-top: 18.5px;
 }
 
-.nl a {
+.lights a {
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-color: lightgrey;
     color: lightgrey;
     text-align: center;
     font-size: 8pt;
     border-radius: 100%;
-    margin-right: 4px;
-    margin-left: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
@@ -704,4 +605,40 @@
     border-radius: 100%;
     margin-right: 4px;
     margin-left: 4px;
+}
+.lights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: darkseagreen;
+    text-align: center;
+}
+.hidewrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-color: lightyellow;
+}
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    background-color: lightyellow;
 }

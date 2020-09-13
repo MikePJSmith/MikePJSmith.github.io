@@ -32,7 +32,7 @@
 </head>
 <body>
     <div id="dartMaster">
-        <div id="containerTop">
+        <div class="containdarts" id="containerTop">
             <div class="topText" id="textA">
                 <a id="home">HOME</a>
             </div>
@@ -43,7 +43,7 @@
                 <a id="away">AWAY</a>
             </div>
         </div>
-        <div id="containerTop2">
+        <div class="containtop" id="containerTop2">
             <div class="topText2" id="balanceL">
                 <a id="home2">BALANCE</a>
             </div>
@@ -53,7 +53,7 @@
                 <a id="away2">BALANCE</a>
             </div>
         </div>
-        <div id="container">
+        <div class="containscores" id="container">
             <div class="tier1" id="t1A">
                 <div id="sbl">000</div>
             </div>
@@ -66,53 +66,54 @@
                 <div id="sbr">000</div>
             </div>
         </div>
-        <div id="container2">
+        <div class="reset" id="resettext"><a>RESET</a></div>
+        <div class="containscores" id="container2">
             <div class="tier2" id="t2A">
                 <div id="sbl2">000</div>
             </div>
             <div class="tier2" id="t2B">
-                <div id="resetText">RESET</div>
                 <div id="total">000</div>
             </div>
             <div class="tier2" id="t2C">
                 <div id="sbr2">000</div>
             </div>
         </div>
-        <div id="container3">
+        <div class="containcalc" id="container3">
             <div id="enterLeft">
                 <div id="enterRedWrap">
                     <button id="enterRed" onclick="enterRedScore()"></button>
                 </div>
             </div>
             <div id="calcWrap">
-                <div id="calculator">
-                    <div id="numbers">
-                        <div id="numbers2">
-                            <a class="labelL">1</a>
-                            <a class="labelM">2</a>
-                            <a class="labelR">3</a>
-                            <button class="enterL">1</button>
-                            <button class="enterM">2</button>
-                            <button class="enterR">3</button>
-                            <a class="labelL">4</a>
-                            <a class="labelM">5</a>
-                            <a class="labelR">6</a>
-                            <button class="enterL">4</button>
-                            <button class="enterM">5</button>
-                            <button class="enterR">6</button>
-                            <a class="labelL">7</a>
-                            <a class="labelM">8</a>
-                            <a class="labelR">9</a>
-                            <button class="enterL">7</button>
-                            <button class="enterM">8</button>
-                            <button class="enterR">9</button>
-                            <a class="labelL">C</a>
-                            <a class="labelM">0</a>
-                            <a class="labelR">C</a>
-                            <button class="enterL" id="clearR">C</button>
-                            <button class="enterM">0</button>
-                            <button class="enterR" id="clearB">C</button>
-                        </div>
+                    <div id="calculator">
+                        <div id="numbers">
+                            <div id="numbers2">
+                                <a class="labelL">1</a>
+                                <a class="labelM">2</a>
+                                <a class="labelR">3</a>
+                                <button class="enterL">1</button>
+                                <button class="enterM">2</button>
+                                <button class="enterR">3</button>
+                                <a class="labelL">4</a>
+                                <a class="labelM">5</a>
+                                <a class="labelR">6</a>
+                                <button class="enterL">4</button>
+                                <button class="enterM">5</button>
+                                <button class="enterR">6</button>
+                                <a class="labelL">7</a>
+                                <a class="labelM">8</a>
+                                <a class="labelR">9</a>
+                                <button class="enterL">7</button>
+                                <button class="enterM">8</button>
+                                <button class="enterR">9</button>
+                                <a class="labelL">C</a>
+                                <a class="labelM">0</a>
+                                <a class="labelR">C</a>
+                                <button class="enterL" id="clearR">C</button>
+                                <button class="enterM">0</button>
+                                <button class="enterR" id="clearB">C</button>
+                            </div>
+     
                     </div>
                 </div>
             </div>
@@ -122,192 +123,212 @@
                 </div>
             </div>
         </div>
-        <div id="containerCricket">
+        <div class="containcricket" id="containerCricket">
             <a id="cricket" style="font-family: 'Crimson+Text', serif; font-style: italic;">Cricket</a>
         </div>
-        <div id="container4">
-            <div id="scoreboxLeft">
-                <div id="numbersLeft">
-                    <div class="nl" id="nlTop">
-                        <a id="nl3">0</a>
-                        <a id="nl2">0</a>
-                        <a id="nl1">0</a>
-                    </div>
-                    <div class="nl">
-                        <a id="nl6">0</a>
-                        <a id="nl5">0</a>
-                        <a id="nl4">0</a>
-                    </div>
-                    <div class="nl">
-                        <a id="nl9">0</a>
-                        <a id="nl8">0</a>
-                        <a id="nl7">0</a>
-                    </div>
-                    <div class="nl">
-                        <a id="nl12">0</a>
-                        <a id="nl11">0</a>
-                        <a id="nl10">0</a>
-                    </div>
-                    <div class="nl">
-                        <a id="nl15">0</a>
-                        <a id="nl14">0</a>
-                        <a id="nl13">0</a>
-                    </div>
-                    <div class="nl">
-                        <a id="nl18">0</a>
-                        <a id="nl17">0</a>
-                        <a id="nl16">0</a>
-                    </div>
-                    <div class="nl">
-                        <a id="nl21">0</a>
-                        <a id="nl20">0</a>
-                        <a id="nl19">0</a>
-                    </div>
+        <div class="containbut" id="row1">
+            <div class="lights" id="leftlights1">
+                <a id="nl3">0</a>
+                <a id="nl2">0</a>
+                <a id="nl1">0</a>
+            </div>
+            <div class="numbers" id="leftnumbers">
+                <a>----- 20 -----</a>
+            </div>
+            <div class="hidewrap" id="hideleft1">
+                <a class="hide" id="hide1Lb">0</a>
+                <a class="hide" id="hide1La">0</a>
+            </div>
+            <div class="action" id="actionbuttons">
+                <button class="button" id="click1" onclick="buttonClick1()">0</button>
+            </div>
+            <div class="hidewrap" id="hideright1">
+                <a class="hide" id="hide1Ra">0</a>
+                <a class="hide" id="hide1Rb">0</a>
+            </div>
+            <div class="numbers" id="rightnumbers">
+                <a>----- 20 -----</a>
+            </div>
+            <div class="lights" id="rightlights1">
+                <a id="nr1">0</a>
+                <a id="nr2">0</a>
+                <a id="nr3">0</a>
+            </div>
+        </div>
+        <div class="containbut" id="row2">
+            <div class="lights" id="leftlights2">
+                <a id="nl6">0</a>
+                <a id="nl5">0</a>
+                <a id="nl4">0</a>
+            </div>
+            <div class="numbers" id="leftnumbers">
+                <a>----- 19 -----</a>
+            </div>
+            <div class="hidewrap" id="hideleft2">
+                <a class="hide" id="hide2Lb">0</a>
+                <a class="hide" id="hide2La">0</a>
+            </div>
+            <div class="action" id="actionbuttons">
+                <button class="button" id="click2" onclick="buttonClick2()">0</button>
+            </div>
+            <div class="hidewrap" id="hideright2">
+                <a class="hide" id="hide2Ra">0</a>
+                <a class="hide" id="hide2Rb">0</a>
+            </div>
+            <div class="numbers" id="rightnumbers">
+                <a>----- 19 -----</a>
+            </div>
+            <div class="lights" id="rightlights2">
+                <a id="nr4">0</a>
+                <a id="nr5">0</a>
+                <a id="nr6">0</a>
+            </div>
+        </div>
+        <div class="containbut" id="row3">
+            <div class="lights" id="leftlights3">
+                <a id="nl9">0</a>
+                <a id="nl8">0</a>
+                <a id="nl7">0</a>
+            </div>
+                <div class="numbers" id="leftnumbers">
+                    <a>----- 18 -----</a>
+                </div>
+                <div class="hidewrap" id="hideleft3">
+                    <a class="hide" id="hide3Lb">0</a>
+                    <a class="hide" id="hide3La">0</a>
+                </div>
+                <div class="action" id="actionbuttons">
+                    <button class="button" id="click3" onclick="buttonClick3()">0</button>
+                </div>
+                <div class="hidewrap" id="hideright3">
+                    <a class="hide" id="hide3Ra">0</a>
+                    <a class="hide" id="hide3Rb">0</a>
+                </div>
+                <div class="numbers" id="rightnumbers">
+                    <a>----- 18 -----</a>
+                </div>
+                <div class="lights" id="rightlights3">
+                    <a id="nr7">0</a>
+                    <a id="nr8">0</a>
+                    <a id="nr9">0</a>
                 </div>
             </div>
-            <div id="scoreboxLeftMid">
-                <div class="midWrapL">
-                    <div class="tr" id="trlTop">
-                        <a>----- 20 -----</a>
-                    </div>
-                    <div class="tr">
-                        <a>----- 19 -----</a>
-                    </div>
-                    <div class="tr">
-                        <a>----- 18 -----</a>
-                    </div>
-                    <div class="tr">
-                        <a>----- 17 -----</a>
-                    </div>
-                    <div class="tr">
-                        <a>----- 16 -----</a>
-                    </div>
-                    <div class="tr">
-                        <a>----- 15 -----</a>
-                    </div>
-                    <div class="tr">
-                        <a>----- 25 -----</a>
-                    </div>
+            <div class="containbut" id="row4">
+                <div class="lights" id="leftlights4">
+                    <a id="nl12">0</a>
+                    <a id="nl11">0</a>
+                    <a id="nl10">0</a>
+                </div>
+                <div class="numbers" id="leftnumbers">
+                    <a>----- 17 -----</a>
+                </div>
+                <div class="hidewrap" id="hideleft4">
+                    <a class="hide" id="hide4Lb">0</a>
+                    <a class="hide" id="hide4La">0</a>
+                </div>
+                <div class="action" id="actionbuttons">
+                    <button class="button" id="click4" onclick="buttonClick4()">0</button>
+                </div>
+                <div class="hidewrap" id="hideright4">
+                    <a class="hide" id="hide4Ra">0</a>
+                    <a class="hide" id="hide4Rb">0</a>
+                </div>
+                <div class="numbers" id="rightnumbers">
+                    <a>----- 17 -----</a>
+                </div>
+                <div class="lights" id="rightlights4">
+                    <a id="nr10">0</a>
+                    <a id="nr11">0</a>
+                    <a id="nr12">0</a>
                 </div>
             </div>
-            <div id="scoreboxMiddle">
-                <div id="scoreButtons">
-                    <div class="btns">
-                        <a class="hide" id="hide1Lb">0</a>
-                        <a class="hide" id="hide1La">0</a>
-                        <button class="button" id="click1" onclick="buttonClick1()">0</button>
-                        <a class="hide" id="hide1Ra">0</a>
-                        <a class="hide" id="hide1Rb">0</a>
-                    </div>
-                    <div class="btns">
-                        <a class="hide" id="hide2Lb">0</a>
-                        <a class="hide" id="hide2La">0</a>
-                        <button class="button" id="click2" onclick="buttonClick2()">0</button>
-                        <a class="hide" id="hide2Ra">0</a>
-                        <a class="hide" id="hide2Rb">0</a>
-                    </div>
-                    <div class="btns">
-                        <a class="hide" id="hide3Lb">0</a>
-                        <a class="hide" id="hide3La">0</a>
-                        <button class="button" id="click3" onclick="buttonClick3()">0</button>
-                        <a class="hide" id="hide3Ra">0</a>
-                        <a class="hide" id="hide3Rb">0</a>
-                    </div>
-                    <div class="btns">
-                        <a class="hide" id="hide4Lb">0</a>
-                        <a class="hide" id="hide4La">0</a>
-                        <button class="button" id="click4" onclick="buttonClick4()">0</button>
-                        <a class="hide" id="hide4Ra">0</a>
-                        <a class="hide" id="hide4Rb">0</a>
-                    </div>
-                    <div class="btns">
-                        <a class="hide" id="hide5Lb">0</a>
-                        <a class="hide" id="hide5La">0</a>
-                        <button class="button" id="click5" onclick="buttonClick5()">0</button>
-                        <a class="hide" id="hide5Ra">0</a>
-                        <a class="hide" id="hide5Rb">0</a>
-                    </div>
-                    <div class="btns">
-                        <a class="hide" id="hide6Lb">0</a>
-                        <a class="hide" id="hide6La">0</a>
-                        <button class="button" id="click6" onclick="buttonClick6()">0</button>
-                        <a class="hide" id="hide6Ra">0</a>
-                        <a class="hide" id="hide6Rb">0</a>
-                    </div>
-                    <div class="btns">
-                        <a class="hide" id="hide7Lb">0</a>
-                        <a class="hide" id="hide7La">0</a>
-                        <button class="button" id="click7" onclick="buttonClick7()">0</button>
-                        <a class="hide" id="hide7Ra">0</a>
-                        <a class="hide" id="hide7Rb">0</a>
-                    </div>
+            <div class="containbut" id="row5">
+                <div class="lights" id="leftlights5">
+                    <a id="nl15">0</a>
+                    <a id="nl14">0</a>
+                    <a id="nl13">0</a>
+                </div>
+                <div class="numbers" id="leftnumbers">
+                    <a>----- 16 -----</a>
+                </div>
+                <div class="hidewrap" id="hideleft5">
+                    <a class="hide" id="hide5Lb">0</a>
+                    <a class="hide" id="hide5La">0</a>
+                </div>
+                <div class="action" id="actionbuttons">
+                    <button class="button" id="click5" onclick="buttonClick5()">0</button>
+                </div>
+                <div class="hidewrap" id="hideright5">
+                    <a class="hide" id="hide5Ra">0</a>
+                    <a class="hide" id="hide5Rb">0</a>
+                </div>
+                <div class="numbers" id="rightnumbers">
+                    <a>----- 16 -----</a>
+                </div>
+                <div class="lights" id="rightlights5">
+                    <a id="nr13">0</a>
+                    <a id="nr14">0</a>
+                    <a id="nr15">0</a>
                 </div>
             </div>
-            <div id="scoreboxRightMid">
-                <div class="midWrapR">
-                    <div class="tr" id="trrTop">
-                        <a>------ 20 ------</a>
-                    </div>
-                    <div class="tr">
-                        <a>------ 19 ------</a>
-                    </div>
-                    <div class="tr">
-                        <a>------ 18 ------</a>
-                    </div>
-                    <div class="tr">
-                        <a>------ 17 ------</a>
-                    </div>
-                    <div class="tr">
-                        <a>------ 16 ------</a>
-                    </div>
-                    <div class="tr">
-                        <a>------ 15 ------</a>
-                    </div>
-                    <div class="tr">
-                        <a>------ 25 ------</a>
-                    </div>
+            <div class="containbut" id="row6">
+                <div class="lights" id="leftlights6">
+                    <a id="nl18">0</a>
+                    <a id="nl17">0</a>
+                    <a id="nl16">0</a>
+                </div>
+                <div class="numbers" id="leftnumbers">
+                    <a>----- 15 -----</a>
+                </div>
+                <div class="hidewrap" id="hideleft6">
+                    <a class="hide" id="hide6Lb">0</a>
+                    <a class="hide" id="hide6La">0</a>
+                </div>
+                <div class="action" id="actionbuttons">
+                    <button class="button" id="click6" onclick="buttonClick6()">0</button>
+                </div>
+                <div class="hidewrap" id="hideright6">
+                    <a class="hide" id="hide6Ra">0</a>
+                    <a class="hide" id="hide6Rb">0</a>
+                </div>
+                <div class="numbers" id="rightnumbers">
+                    <a>----- 15 -----</a>
+                </div>
+                <div class="lights" id="rightlights6">
+                    <a id="nr16">0</a>
+                    <a id="nr17">0</a>
+                    <a id="nr18">0</a>
                 </div>
             </div>
-            <div id="scoreboxRight">
-                <div id="numbersRight">
-                    <div class="nr" id="nrTop">
-                        <a id="nr1">0</a>
-                        <a id="nr2">0</a>
-                        <a id="nr3">0</a>
-                    </div>
-                    <div class="nr">
-                        <a id="nr4">0</a>
-                        <a id="nr5">0</a>
-                        <a id="nr6">0</a>
-                    </div>
-                    <div class="nr">
-                        <a id="nr7">0</a>
-                        <a id="nr8">0</a>
-                        <a id="nr9">0</a>
-                    </div>
-                    <div class="nr">
-                        <a id="nr10">0</a>
-                        <a id="nr11">0</a>
-                        <a id="nr12">0</a>
-                    </div>
-                    <div class="nr">
-                        <a id="nr13">0</a>
-                        <a id="nr14">0</a>
-                        <a id="nr15">0</a>
-                    </div>
-                    <div class="nr">
-                        <a id="nr16">0</a>
-                        <a id="nr17">0</a>
-                        <a id="nr18">0</a>
-                    </div>
-                    <div class="nr">
-                        <a id="nr19">0</a>
-                        <a id="nr20">0</a>
-                        <a id="nr21">0</a>
-                    </div>
+            <div class="containbut" id="row7">
+                <div class="lights" id="leftlights7">
+                    <a id="nl21">0</a>
+                    <a id="nl20">0</a>
+                    <a id="nl19">0</a>
+                </div>
+                <div class="numbers" id="leftnumbers">
+                    <a>----- 25 -----</a>
+                </div>
+                <div class="hidewrap" id="hideleft7">
+                    <a class="hide" id="hide7Lb">0</a>
+                    <a class="hide" id="hide7La">0</a>
+                </div>
+                <div class="action" id="actionbuttons">
+                    <button class="button" id="click7" onclick="buttonClick7()">0</button>
+                </div>
+                <div class="hidewrap" id="hideright7">
+                    <a class="hide" id="hide7Ra">0</a>
+                    <a class="hide" id="hide7Rb">0</a>
+                </div>
+                <div class="numbers" id="rightnumbers">
+                    <a>----- 25 -----</a>
+                </div>
+                <div class="lights" id="rightlights7">
+                    <a id="nr19">0</a>
+                    <a id="nr20">0</a>
+                    <a id="nr21">0</a>
                 </div>
             </div>
         </div>
-    </div>
 </body>
 </html>
